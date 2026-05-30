@@ -434,7 +434,8 @@ elif page == "s4":
 
     if not df.empty:
         bah_row   = df[df.Window == "Buy & Hold"].iloc[0]
-        non_bah   = df[df.Window != "Buy & Hold"]
+        non_bah   = df[df.Window != "Buy & Hold"].copy()
+        non_bah["Win Rate %"] = pd.to_numeric(non_bah["Win Rate %"], errors="coerce")
         best_row  = non_bah.sort_values("Total Return %", ascending=False).iloc[0]
         worst_row = non_bah.sort_values("Total Return %").iloc[0]
         best_wr   = non_bah.sort_values("Win Rate %", ascending=False).iloc[0]
