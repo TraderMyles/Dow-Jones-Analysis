@@ -1,0 +1,21 @@
+Section,Rank,Day,Avg Return %,Win Rate %,Median Return %,Std Dev %,Count,Month,Strategy,Total Return %,# Trades,vs B&H (pp)
+Day of Week,1.0,Tuesday,0.1074,54.4,0.093,1.1113,511.0,,,,,
+Day of Week,2.0,Wednesday,0.1064,55.27,0.1005,1.1087,512.0,,,,,
+Day of Week,3.0,Monday,0.0429,50.6,0.0174,1.2103,496.0,,,,,
+Day of Week,4.0,Friday,-0.0015,52.48,0.064,1.0801,505.0,,,,,
+Day of Week,5.0,Thursday,-0.0404,52.14,0.0595,1.187,514.0,,,,,
+Month of Year,1.0,,0.1461,57.14,0.1202,1.3955,196.0,Apr,,,,
+Month of Year,2.0,,0.1402,55.81,0.1101,0.9344,215.0,Nov,,,,
+Month of Year,3.0,,0.0948,56.94,0.1097,0.9002,216.0,Jan,,,,
+Month of Year,4.0,,0.0905,54.72,0.0686,1.1362,212.0,May,,,,
+Month of Year,5.0,,0.0703,50.78,0.024,0.9205,193.0,Dec,,,,
+Month of Year,6.0,,0.0689,52.25,0.0677,0.9618,222.0,Jul,,,,
+Month of Year,7.0,,0.0031,51.24,0.0224,1.0643,201.0,Feb,,,,
+Month of Year,8.0,,-0.0033,50.0,0.0043,0.9523,216.0,Oct,,,,
+Month of Year,9.0,,-0.01,48.82,-0.0637,1.1051,211.0,Jun,,,,
+Month of Year,10.0,,-0.011,52.02,0.0661,0.9074,223.0,Aug,,,,
+Month of Year,11.0,,-0.0134,53.27,0.0825,0.9808,214.0,Sep,,,,
+Month of Year,12.0,,-0.0485,52.97,0.0799,1.9706,219.0,Mar,,,,
+Strategy Comparison,,,,54.4,,,,,Best Day (Tuesday),-8.0,511.0,-161.23
+Strategy Comparison,,,,80.0,,,,,Best Month (Apr),29.06,10.0,-124.16
+Strategy Comparison,,,,—,,,,,Buy & Hold,153.22,1.0,0.0
